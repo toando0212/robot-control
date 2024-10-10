@@ -5,14 +5,22 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <!-- Nút Forward -->
+    <Button
+        android:id="@+id/btn_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forward" />
+
     <!-- Nút lên -->
+
+    <!-- Nút trái, giữa (trống), và phải -->
     <Button
         android:id="@+id/btn_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Up" />
 
-    <!-- Nút trái, giữa (trống), và phải -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,15 +28,16 @@
         android:gravity="center">
 
         <!-- Nút trái -->
+
+        <!-- View trung tâm để canh giữa -->
         <Button
             android:id="@+id/btn_left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Left" />
 
-        <!-- View trung tâm để canh giữa -->
         <View
-            android:layout_width="50dp"
+            android:layout_width="89dp"
             android:layout_height="50dp" />
 
         <!-- Nút phải -->
@@ -45,5 +54,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Down" />
+
+    <!-- Nút Back -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
 
 </LinearLayout>
